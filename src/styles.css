@@ -1,4 +1,19 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightblue;
+  color: black;
+}
+.nav-links {
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 18vh; 
+  list-style: none; /*this will remove the dots*/
 }
